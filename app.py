@@ -63,6 +63,6 @@ def escolher_opcoes():
     except ValueError:
         opcao_invalida()
 
-if name == "__main__":
+if __name__ == "__main__":
     finalizar_app()
     main()
